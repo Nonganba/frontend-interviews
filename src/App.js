@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import Compose from "./Unacademy/Compose";
+import Debouncing from "./Unacademy/debouncing";
+import EventDelegation from "./Unacademy/EventDelegation";
+import FlattenArray from "./Unacademy/FlattenArray";
+import PromisePolyfill from "./Unacademy/PromisePolyfill";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Debouncing />
+      <FlattenArray /> */}
+      {/* <Compose />
+      <PromisePolyfill /> */}
+      <EventDelegation />
     </div>
   );
 }
