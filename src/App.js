@@ -3,6 +3,11 @@ import Debouncing from "./Unacademy/debouncing";
 import EventDelegation from "./Unacademy/EventDelegation";
 import FlattenArray from "./Unacademy/FlattenArray";
 import PromisePolyfill from "./Unacademy/PromisePolyfill";
+import Currying from "./Currying/currying";
+import Throttling from "./Unacademy/Throttling";
+import ArraysPolyfill from "./ArraysPolyfill/ArraysPolyfill";
+import CallApplyBind from "./CallApplyBind/CallApplyBind";
+import OutlookClone from "./OutlookClone/OutlookClone";
 
 function App() {
   return (
@@ -11,7 +16,12 @@ function App() {
       <FlattenArray /> */}
       {/* <Compose />
       <PromisePolyfill /> */}
-      <EventDelegation />
+      {/* <EventDelegation /> */}
+      {/* <Currying /> */}
+      {/* <Throttling /> */}
+      {/* <ArraysPolyfill /> */}
+      {/* <CallApplyBind /> */}
+      <OutlookClone/>
     </div>
   );
 }
